@@ -44,9 +44,10 @@ position = Vector2( 35, 565 )
 script = ExtResource( 3 )
 
 [node name="TileMap" type="TileMap" parent="PlatformBlue"]
+position = Vector2( -35, 11 )
 tile_set = SubResource( 2 )
 format = 1
-tile_data = PoolIntArray( -524288, 0, 0, -196605, 0, 0, -196604, 0, 0, -196602, 0, 0, -196601, 0, 0, -196600, 0, 0, -131069, 0, 0, -131067, 0, 0, -131066, 0, 0, -131064, 0, 0, -65536, 0, 0, -65535, 0, 0, -65534, 0, 0, -65533, 0, 0, -65531, 0, 0, -65530, 0, 0, -65528, 0, 0, -65527, 0, 0 )
+tile_data = PoolIntArray( -589822, 0, 0, -589821, 0, 0, -589818, 0, 0, -589817, 0, 0, -589812, 0, 0, -524287, 0, 0, -524286, 0, 0, -524283, 0, 0, -524282, 0, 0, -524276, 0, 0, -524275, 0, 0, -458752, 0, 0, -458751, 0, 0, -458747, 0, 0, -458739, 0, 0, -458738, 0, 0, -393216, 0, 0, -393212, 0, 0, -393210, 0, 0, -393209, 0, 0, -393208, 0, 0, -393207, 0, 0, -393206, 0, 0, -393202, 0, 0, -327680, 0, 0, -327677, 0, 0, -327669, 0, 0, -262144, 0, 0, -262141, 0, 0, -262132, 0, 0, -196608, 0, 0, -196605, 0, 0, -196601, 0, 0, -196600, 0, 0, -196599, 0, 0, -196598, 0, 0, -196595, 0, 0, -196594, 0, 0, -131072, 0, 0, -131070, 0, 0, -131069, 0, 0, -131066, 0, 0, -131061, 0, 0, -131058, 0, 0, -65536, 0, 0, -65535, 0, 0, -65534, 0, 0, -65530, 0, 0, -65525, 0, 0, -65521, 0, 0 )
 
 [node name="Area2D" type="Area2D" parent="PlatformBlue/TileMap"]
 
@@ -58,10 +59,11 @@ position = Vector2( 72.7009, 421.901 )
 script = ExtResource( 5 )
 
 [node name="ObjectiveArea" type="Area2D" parent="."]
+position = Vector2( 960, 512 )
 script = ExtResource( 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveArea"]
-position = Vector2( 64, 192 )
+position = Vector2( -384, 0 )
 shape = SubResource( 1 )
 
 [connection signal="body_entered" from="ObjectiveArea" to="ObjectiveArea" method="_on_ObjectiveArea_body_entered"]
