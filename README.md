@@ -30,3 +30,5 @@ stone platform child dari platform blue. jadi posisinya relative ke parentnya (p
 
 source:
 https://code.luasoftware.com/tutorials/godot/godot-area2d-vs-staticbody2d-ve-rigidbody2d-vs-kinematicbody2d
+
+coin sprite provided for free from: https://kangjung.itch.io/coin-pixel
